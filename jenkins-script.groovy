@@ -21,8 +21,4 @@ node {
        sh "echo Testing"
    }
    
-   stage('deploy') {
-       // Deploy the code
-       sh "'${mvnHome}/bin/mvn' spring-boot:run"
-   }
 }
